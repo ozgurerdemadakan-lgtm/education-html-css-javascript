@@ -1,0 +1,40 @@
+h1{
+    color: red;
+    background-color:black;
+}
+
+
+
+p{
+    font-size:30px;
+    color:blue;
+    background-color:yellow;
+}
+
+body{
+    background-color:lightblue;
+    color:green;
+}
+
+.vurgu {
+    color:red;
+     padding: 20px;
+    border:2px solid black;
+    margin:20px;
+    
+}
+
+#hedefler {
+    color:purple;
+}
+
+.kapsayici {
+  display: flex;
+  justify-content: space-around;
+}
+
+.kutu {
+    border:2px solid black;
+    padding: 20px;
+    
+}
