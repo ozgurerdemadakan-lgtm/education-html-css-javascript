@@ -39,8 +39,24 @@ arttirDugmmesi.addEventListener("click", function() {
 });
 
 azaltDugmesi.addEventListener("click", function() {
+   if (sayac >= 0) {
     sayac = sayac - 1;
     sayiYazisi.textContent = sayac;
-
+   }
 });
+
+
+
+let renkler = ["kırmızı", "mavi", "yeşil", "sarı"];
+
+    console.log(renkler[0]);
+    console.log(renkler[2]);
+    console.log(renkler.length);
+
+
+    for (let i = 0; i < renkler.length; i++) {
+        console.log(renkler[i]);
+    }
+
+
 
