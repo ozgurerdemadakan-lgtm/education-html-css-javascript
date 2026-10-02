@@ -25,3 +25,22 @@ buton.addEventListener("click", function() {
     let baslik = document.getElementById("job");
     baslik.textContent = "Benim işim yazılım geliştirme ve web tasarım ";
 });
+
+
+let sayac = 0;
+let arttirDugmmesi = document.getElementById("arttir");
+let azaltDugmesi = document.getElementById("azalt");
+let sayiYazisi = document.getElementById("sayi yazisi");
+
+arttirDugmmesi.addEventListener("click", function() {
+    sayac = sayac + 1;
+    sayiYazisi.textContent = sayac;
+
+});
+
+azaltDugmesi.addEventListener("click", function() {
+    sayac = sayac - 1;
+    sayiYazisi.textContent = sayac;
+
+});
+
